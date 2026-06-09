@@ -14,13 +14,6 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Как мы видим наши продукты</title>
-				<link>http://localhost:1313/news/post_2/</link>
-				<pubDate>Sat, 06 Jun 2026 10:00:00 +0700</pubDate>
-				<guid>http://localhost:1313/news/post_2/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/post_2.jpg&#34; alt=&#34;Родная, близкая&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Чтобы наш модельный ряд был не просто набором форм, а настоящей архитектурной летописью, мы отобрали четыре серии. Это настоящий «золотой фонд» типового домостроения, по которому сотни городов до сих пор узнают свои детство и юность.&lt;/p&gt;&#xA;&lt;p&gt;1-464 («Хрущёвка-панелька»)&#xA;Первая ласточка массового панельного домостроения. Эти 5-этажки (позже — и 9-этажные модификации) строили по всему СССР в конце 1950-х — середине 1970-х годов. Это самая массовая и самая узнаваемая «панелька», от которой пошёл культ «маленьких кухонь и раздельных санузлов».&lt;/p&gt;</description>
-			</item>
-			<item>
 				<title>Как мы делаем дома</title>
 				<link>http://localhost:1313/news/post_3/</link>
 				<pubDate>Sat, 06 Jun 2026 10:00:00 +0700</pubDate>
@@ -40,6 +33,13 @@
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/resures/</guid>
 				<description>&lt;h1 id=&#34;источники-для-вдохнивения&#34;&gt;Источники для вдохнивения&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/&#34;&gt;Шпаргалка Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://struchkov.dev/blog/ru/create-hugo-site/#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B5%D0%BC-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%B0%D0%B9%D1%82&#34;&gt;Как создавать сайт HUGO&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://thecode.media/hugo/&#34;&gt;Как установить тему на Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Благодарим их за сотрудничество!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>О проекте</title>
+				<link>http://localhost:1313/project_annatation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/project_annatation/</guid>
+				<description>&lt;h1 id=&#34;история-панельки&#34;&gt;История «Панельки»&lt;/h1&gt;&#xA;&lt;h3 id=&#34;как-мы-превратили-любовь-к-бетонным-коробкам-в-тёплый-свет-по-всей-стране&#34;&gt;Как мы превратили любовь к бетонным коробкам в тёплый свет по всей стране&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;пролог-обычный-вечер-в-балашихе&#34;&gt;Пролог: Обычный вечер в Балашихе&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/O-nas_1.jpg&#34; alt=&#34;Железнодорожный Ночной&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Знаете это чувство: сидишь на кухне панельной девятиэтажки, за окном — моросит, во дворе — такие же серые дома, а на душе… почему-то спокойно?&lt;/p&gt;&#xA;&lt;p&gt;В 2018 году я смотрел на свой подъезд и впервые подумал:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;«Почему все вокруг пытаются сделать светильники в виде парижских соборов или абажуров из папье-маше? А где свет для нас? Для тех, кто вырос в 1-464, кто помнит запах мокрой шубы на фасаде и ритм балконов в П-44?»&lt;/em&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Участники</title>

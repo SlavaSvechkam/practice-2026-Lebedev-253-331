@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Последние новости проекта on БЕТТОН</title>
+		<title>Последние заметки о проекте on БЕТТОН</title>
 		<link>http://localhost:1313/news/</link>
-		<description>Recent content in Последние новости проекта on БЕТТОН</description>
+		<description>Recent content in Последние заметки о проекте on БЕТТОН</description>
 		<generator>Hugo</generator>
 		<language>ru-ru</language>
 		
@@ -13,13 +13,6 @@
 			<lastBuildDate>Sat, 06 Jun 2026 10:00:00 +0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Как мы видим наши продукты</title>
-				<link>http://localhost:1313/news/post_2/</link>
-				<pubDate>Sat, 06 Jun 2026 10:00:00 +0700</pubDate>
-				<guid>http://localhost:1313/news/post_2/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/post_2.jpg&#34; alt=&#34;Родная, близкая&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Чтобы наш модельный ряд был не просто набором форм, а настоящей архитектурной летописью, мы отобрали четыре серии. Это настоящий «золотой фонд» типового домостроения, по которому сотни городов до сих пор узнают свои детство и юность.&lt;/p&gt;&#xA;&lt;p&gt;1-464 («Хрущёвка-панелька»)&#xA;Первая ласточка массового панельного домостроения. Эти 5-этажки (позже — и 9-этажные модификации) строили по всему СССР в конце 1950-х — середине 1970-х годов. Это самая массовая и самая узнаваемая «панелька», от которой пошёл культ «маленьких кухонь и раздельных санузлов».&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>Как мы делаем дома</title>
 				<link>http://localhost:1313/news/post_3/</link>
