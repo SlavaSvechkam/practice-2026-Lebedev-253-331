@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Как мы делаем дома | БЕТТОН</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Именно так">
+    <meta name="generator" content="Hugo 0.162.1">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/news/post_3/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/news/post_3/">
+	<meta property="og:site_name" content="БЕТТОН">
+	<meta property="og:title" content="Как мы делаем дома">
+	<meta property="og:description" content="Именно так">
+	<meta property="og:locale" content="ru_ru">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="news">
+		<meta property="article:published_time" content="2026-06-06T10:00:00+07:00">
+		<meta property="article:modified_time" content="2026-06-06T10:00:00+07:00">
+		<meta property="article:tag" content="Панелька">
+		<meta property="article:tag" content="Продукт">
+
+	<meta itemprop="name" content="Как мы делаем дома">
+	<meta itemprop="description" content="Именно так">
+	<meta itemprop="datePublished" content="2026-06-06T10:00:00+07:00">
+	<meta itemprop="dateModified" content="2026-06-06T10:00:00+07:00">
+	<meta itemprop="wordCount" content="723">
+	<meta itemprop="keywords" content="Панелька,Продукт">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Как мы делаем дома">
+	<meta name="twitter:description" content="Именно так">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-post_3">
+   
+  
+
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        БЕТТОН
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="О проекте page">
+              О проекте
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/news/" title="Журнал page">
+              Журнал
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/resures/" title="Ресурсы page">
+              Ресурсы
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/ichastnic/" title="Участник page">
+              Участник
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+<main class="pb7" role="main">
+  
+
+  <article class="page-post_3 flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
+    <a class="link dim" href="http://localhost:1313/news/">Последние новости проекта</a>
+  </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Как мы делаем дома</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-06-06T10:00:00+07:00">июня 6, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><img src="/images/post_3.jpg" alt="Родная, близкая"></p>
+<h1 id="как-рождается-свет-в-бетоне-от-панели-до-лампочки">Как рождается свет в бетоне: от панели до лампочки</h1>
+<blockquote>
+<p>Вы думаете, сделать светильник в виде панельной девятиэтажки просто? Налить гипс в форму и воткнуть диод? А вот и нет.<br>
+За каждым нашим изделием стоит чёткая технология, несколько станков и много-много ручной работы.<br>
+Рассказываем, как мы превращаем «скучную» пост-советскую застройку в тёплый арт-объект.</p>
+</blockquote>
+<hr>
+<h2 id="шаг-1-матрица-с-чего-всё-начинается">Шаг 1. Матрица: с чего всё начинается</h2>
+<p>Всё начинается не с бетона, а с <strong>цифровой модели</strong>. Сначала мы воссоздаём в 3D ту самую панельку: её фактуру «шуба», ритм окон, рисунок стыков. Модель должна быть точной до десятой доли миллиметра — иначе пропадёт дух настоящего панельного дома.</p>
+<p>Готовую 3D-модель отправляем на <strong>фрезерный станок с ЧПУ</strong> (модель — например, Stepcraft или FoxAlien). Он вырезает из массива бука или алюминиевой плиты матрицу-оригинал — идеально гладкий прообраз будущей формы. С этой матрицы мы снимаем силиконовые формы, которые будут работать годами. Никакого пластикового ширпотреба — только прецизионная механика.</p>
+<p><strong>Почему ЧПУ?</strong><br>
+Потому что рукой такую геометрию не повторишь. Автоматизированная обработка даёт повторяемость: каждый светильник из одной партии будет одинаково узнаваем.</p>
+<hr>
+<h2 id="шаг-2-замес-пропорции-и-вибрация">Шаг 2. Замес: пропорции и вибрация</h2>
+<p>Для каждого светильника мы используем либо <strong>архитектурный бетон</strong> (для массивных моделей и ночников-барельефов), либо <strong>высокопрочный гипс</strong> (для тонких деталей и светлых фактур). Пропорции держим в секрете, но скажем честно: добавляем пластификаторы, микроволокно и пигменты глубоких оттенков — холодный бетонный серый, молочный, тёплый беж.</p>
+<ol>
+<li><strong>Замес</strong> происходит в промышленном миксере — важно, чтобы масса была абсолютно однородной, без комков.</li>
+<li><strong>Заливка</strong> смеси в силиконовую форму.</li>
+<li><strong>Вибростол</strong> — самый важный этап.</li>
+</ol>
+<blockquote>
+<p>Зачем вибростол?<br>
+Бетон и гипс любят прятать пузырьки воздуха. Если их не выгнать, светильник будет рыхлым и некрасивым. Вибрация за 2–3 минуты удаляет весь лишний воздух — и будущая панелька становится плотной, как настоящая стена панельного дома.</p>
+</blockquote>
+<hr>
+<h2 id="шаг-3-сушка-и-распалубка-никаких-подоконников">Шаг 3. Сушка и распалубка: никаких подоконников</h2>
+<p>Заполненные формы едут в <strong>сушильные стеллажи с контролируемой температурой и влажностью</strong>. Это не бабушкин подоконник. Мы выдерживаем режим:</p>
+<ul>
+<li><strong>24 часа</strong> при <strong>+22°C</strong></li>
+<li>Влажность <strong>не выше 50%</strong></li>
+</ul>
+<p>Только так бетон набирает нужную прочность без трещин и деформаций.</p>
+<p>Через сутки — самый волнительный момент: <strong>распалубка</strong>. Аккуратно вынимаем застывшее изделие и&hellip; видим фактуру «шуба», чёткие грани, все риски и пазы. Как в реальном доме, только маленькое.</p>
+<p><strong>Дальше — ручная шлифовка.</strong><br>
+Мастер обрабатывает каждый миллиметр: убирает мелкие заусенцы, матирует торцы, проверяет геометрию. Это самая медитативная часть процесса. И самая важная — потому что прикосновение руки нельзя заменить никаким станком.</p>
+<hr>
+<h2 id="шаг-4-световая-начинка-тепло-в-каждом-диоде">Шаг 4. Световая начинка: тепло в каждом диоде</h2>
+<p><img src="/images/post_3_1.jpg" alt="Родная, близкая"></p>
+<p>Теперь самое главное — установить свет. Мы используем:</p>
+<ul>
+<li><strong>Тёплые диоды 3000K</strong> — идеальный цвет для вечернего уюта, как лампа накаливания в подъезде.</li>
+<li><strong>Регулируемые 2700–4000K</strong> — в премиум-линейке.</li>
+</ul>
+<p><strong>Драйверы</strong> — только качественные, с защитой от перепадов напряжения, короткого замыкания и перегрева. Мы не паяем «на коленке»: у нас есть отдельный монтажный стол с контролем статического электричества.</p>
+<p>Каждый светильник перед сборкой проходит <strong>холодный тест диодов</strong> — включаем на 24 часа, проверяем нагрев, мерцание, стабильность яркости.</p>
+<blockquote>
+<p>Почему это важно?<br>
+Дешёвые китайские диоды через месяц начинают моргать или менять цвет. Наши — работают годами. Мы даём <strong>гарантию 2 года</strong>, но реально светят дольше.</p>
+</blockquote>
+<hr>
+<h2 id="шаг-5-контроль-качества-безжалостный-и-честный">Шаг 5. Контроль качества: безжалостный и честный</h2>
+<p>Ни один светильник не уедет к вам, пока не пройдёт <strong>тройную проверку</strong>. У нас нет ОТК в виде «дяди Васи, который глянул и сказал ок». У нас — пошаговый протокол.</p>
+<ol>
+<li>
+<p><strong>Визуальный контроль при ярком дневном свете (D65, 6500K).</strong><br>
+Мастер ищет сколы, трещины, крупные пузыри. Мелкие микропузыри допустимы — это же живой бетон, мы не льём пластик. Но любые дефекты, влияющие на внешний вид, — брак. У нас корзина для несоответствий.</p>
+</li>
+<li>
+<p><strong>Контроль размеров штангенциркулем.</strong><br>
+Отклонение — не более 0,5 мм. Иначе панель не встанет в подставку или не зафиксируется в корпусе. Каждый десятый светильник из партии измеряем в трёх плоскостях.</p>
+</li>
+<li>
+<p><strong>Электротест на стенде.</strong><br>
+Проверка:</p>
+<ul>
+<li>целостность диодов,</li>
+<li>работа драйвера на разных напряжениях (210–250 В),</li>
+<li>изоляция проводов (мегаомметром),</li>
+<li>отсутствие мерцания (быстрая съёмка камерой — если видно полосы, брак).</li>
+</ul>
+</li>
+</ol>
+<p>Только после этого мы подписываем <strong>паспорт качества</strong> (да, на каждое изделие!) и упаковываем светильник в индивидуальный короб с пенополиуретановыми вкладышами. Потому что доставка по России — штука суровая, как сибирская зима.</p>
+<hr>
+<h2 id="качество--это-не-просто-слово-это-протокол">Качество — это не просто слово, это протокол</h2>
+<p>Когда вы включаете нашу «панельку», вы должны чувствовать: она сделана не «на отвали», а с пониманием дела. Мы не гоним миллионы штук. У нас маленькая мастерская в Подмосковье.</p>
+<h3 id="оборудование">Оборудование</h3>
+<ul>
+<li><strong>Станки:</strong> фрезерный ЧПУ FoxAlien Masuter Pro + ручной фрезер Makita для доводки.</li>
+<li><strong>Оборудование:</strong> вибростол собственной сборки, сушильный шкаф Binder, монтажный стол с заземлением.</li>
+</ul>
+<h3 id="команда">👥Команда</h3>
+<ul>
+<li>Трое мастеров — формовщик, шлифовщик, электрик.</li>
+<li>Один технолог (я), который проверяет каждую партию лично.</li>
+</ul>
+<hr>
+<ul class="pa0">
+  
+</ul><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Панелька</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Продукт</a>
+   </li>
+  
+</ul>
+
+      
+    </div></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  БЕТТОН 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
